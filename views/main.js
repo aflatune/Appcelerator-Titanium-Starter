@@ -10,7 +10,7 @@ var MainView = View.extend({
     },
 
     layout: function() {
-      var label = Ti.UI.createLabel({text: "King of the web!", color: "#fff"});
+      var label = Ti.UI.createLabel({text: "Welcome to your brand new app!", color: "#fff"});
       this.win.add(label);  
     }
 
