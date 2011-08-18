@@ -1,0 +1,7 @@
+Starter app template for Appcelerator Titanium
+==============================================
+
+Simply copy contents into or clone as Resources folder in a brand new Titanium project. This starter includes the following setup -
+
+* [Appcelerator-Titanium-Redux](https://github.com/aflatune/Appcelerator-Titanium-Redux) -- Reduces the amount of code you need to write when using Appcelerator Titanium. Adds support for JSS, localization, global includes, default properties, and more.
+* [Appcelerator-on-Rails](https://github.com/aflatune/Appcelerator-on-Rails) -- MVC framework
