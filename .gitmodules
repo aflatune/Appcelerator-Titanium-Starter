@@ -1,0 +1,6 @@
+[submodule "Redux"]
+	path = Redux
+	url = https://github.com/aflatune/Appcelerator-Titanium-Redux.git
+[submodule "Appcelerator-on-Rails"]
+	path = Appcelerator-on-Rails
+	url = https://github.com/aflatune/Appcelerator-on-Rails.git
