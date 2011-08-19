@@ -1,5 +1,5 @@
 Ti.include('../Redux/redux.js');
-include('../views/main.js');
+include('../views/main/main.js');
 
 var MainController = Controller.extend({
     init: function(win) {

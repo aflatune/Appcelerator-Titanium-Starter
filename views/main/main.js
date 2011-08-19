@@ -1,4 +1,4 @@
-Ti.include('../Redux/redux.js');
+Ti.include('../../Redux/redux.js');
 
 // Tell the compiler which modules we are going to use; note there are no () on these!
 var used = [Ti.UI.createLabel];
