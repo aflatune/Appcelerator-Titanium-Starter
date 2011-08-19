@@ -1,6 +1,7 @@
-Ti.include("../include/inheritance.js");
-Ti.include("../include/db.js");
-Ti.include("../common/view.js");
+Ti.include('../Redux/redux.js');
+
+// Tell the compiler which modules we are going to use; note there are no () on these!
+var used = [Ti.UI.createLabel];
 
 var MainView = View.extend({
     init: function(win, controller) {
@@ -10,7 +11,7 @@ var MainView = View.extend({
     },
 
     layout: function() {
-      var label = Ti.UI.createLabel({text: "Welcome to your brand new app!", color: "#fff"});
+      var label = new Label({text: "Welcome to your brand new app!", color: "#fff"});
       this.win.add(label);  
     }
 

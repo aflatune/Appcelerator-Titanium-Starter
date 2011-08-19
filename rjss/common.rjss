@@ -1,0 +1,6 @@
+Window, Label {
+  backgroundColor: '#ccc',
+  color: '#f33',
+  textAlign: 'center',
+  font: { fontSize: 48 }
+}
